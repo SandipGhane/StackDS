@@ -36,6 +36,10 @@ string prefixToInfix(string prefix_str){
 }
 
 int main(){
-    string prefix = "*A/BC-/AKL";
+    string prefix = "*-A/BC-/AKL";
     cout<<"Infix Expression"<<prefixToInfix(prefix);
 }
+
+/*op
+        ((A-(B/C))*((A/K)-L))
+*/
